@@ -8,9 +8,9 @@ public class Test {
         FileInputStream input = new FileInputStream("src/data10.txt");
         BufferedReader read_table = new BufferedReader(new FileReader("src/data10_table.txt"));
         FileInputStream encoded_input = new FileInputStream("src/data10_encoded.txt");
-        FileWriter table_output = new FileWriter("src/hw08_01_201203406_table.txt");
-        FileWriter encode_output = new FileWriter("src/hw08_01_201203406_encoded.txt");
-        FileWriter decode_output = new FileWriter("src/hw08_01_201203406_decoded.txt");
+        FileWriter table_output = new FileWriter("");
+        FileWriter encode_output = new FileWriter("");
+        FileWriter decode_output = new FileWriter("");
 
         String word = getWord(input);
         String encoded_word = getWord(encoded_input);
